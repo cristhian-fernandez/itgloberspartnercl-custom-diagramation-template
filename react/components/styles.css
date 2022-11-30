@@ -1,0 +1,46 @@
+.grid{
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+}
+.grid__2 > div:nth-child(1){
+    order: 2;
+}
+.grid__2 > div:nth-child(2){
+    order: 1;
+}
+.grid__2 > div:nth-child(3){
+    order: 3;
+}
+.grid__3 > div:nth-child(1){
+    order: 1;
+}
+.grid__3 > div:nth-child(2){
+    order: 3;
+}
+.grid__3 > div:nth-child(3){
+    order: 2;
+}
+.grid__4 > div:nth-child(1){
+    order: 3;
+}
+.grid__4 > div:nth-child(2){
+    order: 2;
+}
+.grid__4 > div:nth-child(3){
+    order: 1;
+}
+.grid__item--big{
+    margin: 10px;
+    width: calc(50% - 20px);
+    height: 500px;
+    background-color: rgb(145, 145, 240);
+}
+.grid__item--small{
+    margin: 10px;
+    width: calc(25% - 20px);
+    height: 500px;
+    background-color: rgb(75, 202, 153);
+}
+
+
