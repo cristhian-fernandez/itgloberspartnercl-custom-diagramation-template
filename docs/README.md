@@ -2,8 +2,6 @@
 
 Grilla interactiva que sirve para cambia el orden de los elementos hijos desde el `Site Editor`.
 
-![Preview](../assets/special-diagramation.png)
-
 ## Configuration 
 
 ### Paso 1: Clonar Proyecto
